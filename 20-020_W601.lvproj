@@ -346,7 +346,6 @@
 			<Item Name="SACB - 1.vi" Type="VI" URL="../SACB/SACB - 1.vi"/>
 			<Item Name="Auto States v0.2.ctl" Type="VI" URL="../controls/Auto States v0.2.ctl"/>
 			<Item Name="PrintLabel v0.4.vi" Type="VI" URL="../Print/PrintLabel v0.4.vi"/>
-			<Item Name="SACB v0.1.vi" Type="VI" URL="../SACB/SACB v0.1.vi"/>
 			<Item Name="IP Connected.vi" Type="VI" URL="../support/IP Connected.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
