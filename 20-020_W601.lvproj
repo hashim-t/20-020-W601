@@ -31,6 +31,9 @@
 				<Item Name="Shipping Position.vi" Type="VI" URL="../Auto/Slots/Shipping Position.vi"/>
 				<Item Name="Go UP (Loaded).vi" Type="VI" URL="../Auto/Slots/Go UP (Loaded).vi"/>
 				<Item Name="Go Down (Loaded).vi" Type="VI" URL="../Auto/Slots/Go Down (Loaded).vi"/>
+				<Item Name="De Initialization.vi" Type="VI" URL="../Auto/Slots/De Initialization.vi"/>
+				<Item Name="Initialization.vi" Type="VI" URL="../Auto/Slots/Initialization.vi"/>
+				<Item Name="Antipinch.vi" Type="VI" URL="../Auto/Slots/Antipinch.vi"/>
 				<Item Name="Loadcell CYL Home.vi" Type="VI" URL="../Auto/Slots/Loadcell CYL Home.vi"/>
 			</Item>
 			<Item Name="Auto AVG.vi" Type="VI" URL="../Auto/Auto AVG.vi"/>
@@ -71,11 +74,13 @@
 			<Item Name="De-Clamp.ctl" Type="VI" URL="../controls/De-Clamp.ctl"/>
 			<Item Name="Stall Force.ctl" Type="VI" URL="../controls/Stall Force.ctl"/>
 			<Item Name="Shipping Position.ctl" Type="VI" URL="../controls/Shipping Position.ctl"/>
+			<Item Name="Antipinch.ctl" Type="VI" URL="../controls/Antipinch.ctl"/>
 			<Item Name="Go UP (Loaded).ctl" Type="VI" URL="../controls/Go UP (Loaded).ctl"/>
 			<Item Name="Go Down (Loaded).ctl" Type="VI" URL="../controls/Go Down (Loaded).ctl"/>
 			<Item Name="Clamp.ctl" Type="VI" URL="../controls/Clamp.ctl"/>
 			<Item Name="Window Regulators.ctl" Type="VI" URL="../controls/Window Regulators.ctl"/>
 			<Item Name="SACB DI.ctl" Type="VI" URL="../controls/SACB DI.ctl"/>
+			<Item Name="Initialization.ctl" Type="VI" URL="../controls/Initialization.ctl"/>
 			<Item Name="Loadcell CYL Home.ctl" Type="VI" URL="../controls/Loadcell CYL Home.ctl"/>
 		</Item>
 		<Item Name="Maintenance" Type="Folder"/>
@@ -98,6 +103,7 @@
 			<Item Name="User Event - Stop.lvlib" Type="Library" URL="../support/User Event - Stop/User Event - Stop.lvlib"/>
 			<Item Name="Config File Checker.vi" Type="VI" URL="../Settings/Config File Checker.vi"/>
 			<Item Name="Check Loop Error.vi" Type="VI" URL="../support/Check Loop Error.vi"/>
+			<Item Name="IP Connected.vi" Type="VI" URL="../support/IP Connected.vi"/>
 			<Item Name="Error Handler - Event Handling Loop.vi" Type="VI" URL="../support/Error Handler - Event Handling Loop.vi"/>
 			<Item Name="Error Handler - Message Handling Loop.vi" Type="VI" URL="../support/Error Handler - Message Handling Loop.vi"/>
 			<Item Name="Menu select.ctl" Type="VI" URL="../support/Menu select.ctl"/>
@@ -346,8 +352,8 @@
 			<Item Name="SACB - 1.vi" Type="VI" URL="../SACB/SACB - 1.vi"/>
 			<Item Name="Auto States v0.2.ctl" Type="VI" URL="../controls/Auto States v0.2.ctl"/>
 			<Item Name="PrintLabel v0.4.vi" Type="VI" URL="../Print/PrintLabel v0.4.vi"/>
-			<Item Name="IP Connected.vi" Type="VI" URL="../support/IP Connected.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="De Initialization.ctl" Type="VI" URL="../../../../Users/TOSHIBA/Desktop/Software 2020.12.07 1545 - Copy/controls/De Initialization.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="WR501" Type="EXE">
