@@ -109,6 +109,7 @@
 			<Item Name="Menu select.ctl" Type="VI" URL="../support/Menu select.ctl"/>
 			<Item Name="Digital IO.vi" Type="VI" URL="../support/Digital IO.vi"/>
 			<Item Name="HMI Pop Up Alpha KB.vi" Type="VI" URL="../Settings/HMI_PopUp_KB.llb/HMI Pop Up Alpha KB.vi"/>
+			<Item Name="Button Grey.vi" Type="VI" URL="../support/Button Grey.vi"/>
 			<Item Name="Driver Commands.ctl" Type="VI" URL="../Settings/HMI_PopUp_KB.llb/Driver Commands.ctl"/>
 			<Item Name="PopUpAlphaKBDriver.vi" Type="VI" URL="../Settings/HMI_PopUp_KB.llb/PopUpAlphaKBDriver.vi"/>
 			<Item Name="SACB Loop.vi" Type="VI" URL="../support/SACB Loop.vi"/>
