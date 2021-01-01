@@ -81,6 +81,7 @@
 			<Item Name="Window Regulators.ctl" Type="VI" URL="../controls/Window Regulators.ctl"/>
 			<Item Name="SACB DI.ctl" Type="VI" URL="../controls/SACB DI.ctl"/>
 			<Item Name="Initialization.ctl" Type="VI" URL="../controls/Initialization.ctl"/>
+			<Item Name="De Intialization.ctl" Type="VI" URL="../controls/De Intialization.ctl"/>
 			<Item Name="Loadcell CYL Home.ctl" Type="VI" URL="../controls/Loadcell CYL Home.ctl"/>
 		</Item>
 		<Item Name="Maintenance" Type="Folder"/>
@@ -354,7 +355,6 @@
 			<Item Name="Auto States v0.2.ctl" Type="VI" URL="../controls/Auto States v0.2.ctl"/>
 			<Item Name="PrintLabel v0.4.vi" Type="VI" URL="../Print/PrintLabel v0.4.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="De Initialization.ctl" Type="VI" URL="../../../../Users/TOSHIBA/Desktop/Software 2020.12.07 1545 - Copy/controls/De Initialization.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="WR501" Type="EXE">
