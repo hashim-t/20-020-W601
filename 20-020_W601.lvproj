@@ -158,6 +158,7 @@
 		</Item>
 		<Item Name="Wait for Connection.vi" Type="VI" URL="../support/Wait for Connection.vi"/>
 		<Item Name="Main v0.01.vi" Type="VI" URL="../Main v0.01.vi"/>
+		<Item Name="BSL Flash.vi" Type="VI" URL="../support/BSL Flash.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="DAQmx Clear Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Clear Task.vi"/>
