@@ -1,0 +1,61 @@
+can you open the firmware location?
+s
+but this is 1929 folder 
+it would be PY1B
+i wyes
+i will give you the W601 FW give me 2 minutes
+k
+once this is uploaded will configure the flashing tool,and we can verify.
+ok
+can you turn on the relay to bsl
+yes
+but in vi, its a latching type boolean 
+let me show u
+let me change the mechanical action, give me 2 min
+i turned on the releay
+okay 
+is the motor connected to the 
+no, sorry , ill connect, i sec
+connected now
+so once the relay is turned on below are the steps that need to be followed:
+Step1: Connect onto the device via BSL tool.exe
+Step2: Configure the BSl tool
+	Sub Step1: File--> Load Hex File--> Goto the hex file location on the system and select the firmware that you want to beflashed.
+	Sub Step2: Extra--> Select Expert Mode.
+	Sub Step3: Click on "Change" Button in Configuration block
+			1. Select Device "TLE9853QX"
+			2. Select "Fast LIN"
+			3. Select "115200"Baud Rate
+			4. Select Vs "Off During Reset"
+			5. Press "OK"
+Step3: Configure erase section to erase "full chip"
+Step4:Select the "auto execute" check boxes in the following section 
+	1.Erase
+	2.Download
+	3.Verify
+	4.Run
+Step5: Connect to the Device by clicking "connect" Button.
+Step6: Press on "Auto Execute" Button to start the auto flashing sequence. Wait fot the operations to complete.
+
+Seems like it is working fine!!
+ok
+just save the note for future reference
+ok, saved
+anyhting else that you neede
+the integration of vi with the W601 priject file, for that we need the vis that you are working on, 
+are you still working on that ?
+i  in the last leg of the development of the vis, will be able to share it accross on monday.
+ok
+for integration also , may be we want your direction, or if kunal sir knows it then its ok.
+so far its ok
+wil be able to support during the integration.
+ok
+alright hashim!
+so its confirmed that the flashing is fine from your side right?\
+yes it is working fine !
+ok
+allright then
+okay
+bye
+bye mohan
+
