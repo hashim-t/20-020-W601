@@ -160,6 +160,7 @@
 		<Item Name="Main v0.01.vi" Type="VI" URL="../Main v0.01.vi"/>
 		<Item Name="BSL Flash.vi" Type="VI" URL="../support/BSL Flash.vi"/>
 		<Item Name="Test auto state machine.vi" Type="VI" URL="../GV/TEST GV/Test auto state machine.vi"/>
+		<Item Name="Control 1.ctl" Type="VI" URL="../../../Users/TOSHIBA/Desktop/Control 1.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="DAQmx Clear Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Clear Task.vi"/>
