@@ -159,8 +159,6 @@
 		<Item Name="Wait for Connection.vi" Type="VI" URL="../support/Wait for Connection.vi"/>
 		<Item Name="Main v0.01.vi" Type="VI" URL="../Main v0.01.vi"/>
 		<Item Name="BSL Flash.vi" Type="VI" URL="../support/BSL Flash.vi"/>
-		<Item Name="Test auto state machine.vi" Type="VI" URL="../GV/TEST GV/Test auto state machine.vi"/>
-		<Item Name="Control 1.ctl" Type="VI" URL="../../../Users/TOSHIBA/Desktop/Control 1.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="DAQmx Clear Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Clear Task.vi"/>
@@ -372,7 +370,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/WR501</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{AAAB9929-6277-46E5-BBF4-B1BC7EEC45DF}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">WR501.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/WR501/WR501.exe</Property>
@@ -395,43 +393,6 @@
 				<Property Name="TgtF_productName" Type="Str">WR501</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{AFD3449A-BE22-46B1-9E73-C6615E268D33}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">WR501.exe</Property>
-				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
-			</Item>
-			<Item Name="Main" Type="EXE">
-				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{F3193F5E-C032-40C3-B3DA-366F95D3E246}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{57F7527F-6860-4129-952C-79A9A9C64D30}</Property>
-				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{AADA44DD-7181-470F-8A50-0E39B0FD0689}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Main</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Main</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{506BDF86-0DEF-4134-9B26-901E158AE14B}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Main.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Main/Main.exe</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Main/data</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Project Documentation/Sasyaka-08.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{21A8F298-4039-40DF-BBCC-47203557E059}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main v0.01.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_companyName" Type="Str">Sasyaka</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Main</Property>
-				<Property Name="TgtF_internalName" Type="Str">Main</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 Sasyaka</Property>
-				<Property Name="TgtF_productName" Type="Str">Main</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{BAC3FE0E-684A-4E7D-9262-CB8FDC23C7F6}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Main.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
