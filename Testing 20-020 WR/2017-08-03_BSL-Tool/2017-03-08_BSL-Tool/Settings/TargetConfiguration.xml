@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TargetConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:noNamespaceSchemaLocation="TargetConfiguration.xsd">
+  <WebLinks>
+    <Link ID="updateURL" Name="www.hitex.com" Address="http://www.hitex.com/index.php?id=3211"/>
+    <Link ID="hitexURL" Name="www.hitex.com" Address="http://www.hitex.com" />
+    <Link ID="ifxURL" Name="www.infineon.com" Address="http://www.infineon.com"/>
+    <Link ID="updateXML" Name="www.hitex.com/XML" Address="http://www.hitex.com/download/misc/infineon/ePower_revision.xml"/>
+  </WebLinks>
+  <Targets>
+    <!--
+    RAM     : size od RAM area
+    NVM     : size of NVM area
+    MC8BIT  : 1 = this is an 8bit CPU
+    FAST    : 0 = CPU starts always in LIN mode
+              1 = CPU is able to start in Fast-LIN mode
+    PROTECT : 0 = only 1 protection area
+              bits bcd = d -> Data 0/1  0 = not available
+                         c -> Code 0/1  1 = available
+                         b -> Bsl  0/1
+    PASS    : 0 = no pass phrase
+              FLINPASSPHRASE = new pass phrase, will send in 2 steps
+              1 = "GET Chip ID" used as pass phrase
+    BSL     : 1 BSL protocol 1.x, NAC/NAD in NVM
+            : 2 BSL protocol 2.x, NAC/NAD via command
+    OPTION  : bit.0 = 1 : use page CRC for verify
+              bit.1 = 1 : LIN not supported
+              bit.2 = 1 : Fix baud 115200
+              bit.3 = 1 : use full chip CRC for verify
+              bit.4 = 0 : use XOR16 CRC
+                      1 : use inverted XOR16 CRC
+               1 = page CRC
+               7 = no LIN, only 115200, page chip CRC, XOR16
+              14 = no LIN, only 115200, full chip CRC, XOR16
+              24 = full chip CRC, inverted XOR16
+    -->
+	<Target ID="1" NAME="TLE9831" RAM="0xC00" NVM="0x8000" MC8BIT="1" FAST="0" PROTECT="0" PASS="0" BSL="1" OPTION="1"/>
+	<Target ID="2" NAME="TLE9832" RAM="0xC00" NVM="0x8000" MC8BIT="1" FAST="0" PROTECT="0" PASS="0" BSL="1" OPTION="1"/>
+	<Target ID="3" NAME="TLE9833" RAM="0xC00" NVM="0xB000" MC8BIT="1" FAST="0" PROTECT="0" PASS="0" BSL="1" OPTION="1"/>
+	<Target ID="4" NAME="TLE9834" RAM="0xC00" NVM="0xF000" MC8BIT="1" FAST="0" PROTECT="0" PASS="0" BSL="1" OPTION="1"/>
+	<Target ID="5" NAME="TLE9861QX" RAM="0xC00" NVM="0x8000" MC8BIT="0" FAST="1" PROTECT="0" PASS="0" BSL="1" OPTION="1"/>
+	<Target ID="6" NAME="TLE9867QX" RAM="0x1800" NVM="0xF000" MC8BIT="0" FAST="1" PROTECT="0" PASS="0" BSL="1" OPTION="1"/>
+  <Target ID="7" NAME="TLE9868QX" RAM="0xC00" NVM="0x1F000" MC8BIT="0" FAST="1" PROTECT="0" PASS="0" BSL="1" OPTION="1"/>
+  <Target ID="8" NAME="TLE9869QX" RAM="0x1800" NVM="0x1F000" MC8BIT="0" FAST="1" PROTECT="0" PASS="0" BSL="1" OPTION="1"/>
+  <Target ID="9" NAME="TLE9871QX" RAM="0xC00" NVM="0x8000" MC8BIT="0" FAST="1" PROTECT="0" PASS="0" BSL="1" OPTION="1"/>
+  <Target ID="10" NAME="TLE9877QX" RAM="0x1800" NVM="0xF000" MC8BIT="0" FAST="1" PROTECT="0" PASS="0" BSL="1" OPTION="1"/>
+  <Target ID="11" NAME="TLE9879QX" RAM="0x1800" NVM="0x1F000" MC8BIT="0" FAST="1" PROTECT="0" PASS="0" BSL="1" OPTION="1"/>
+  <Target ID="12" NAME="TLE9861QX BF-Step" RAM="0xC00" NVM="0x8000" MC8BIT="0" FAST="2" PROTECT="0" PASS="1" BSL="1" OPTION="14"/>
+  <Target ID="13" NAME="TLE9867QX BF-Step" RAM="0x1800" NVM="0xF000" MC8BIT="0" FAST="2" PROTECT="0" PASS="1" BSL="1" OPTION="14"/>
+  <Target ID="14" NAME="TLE9868QX BF-Step" RAM="0xC00" NVM="0x1F000" MC8BIT="0" FAST="2" PROTECT="0" PASS="1" BSL="1" OPTION="14"/>
+  <Target ID="15" NAME="TLE9869QX BF-Step" RAM="0x1800" NVM="0x1F000" MC8BIT="0" FAST="2" PROTECT="0" PASS="1" BSL="1" OPTION="14"/>
+  <Target ID="16" NAME="TLE9871QX BF-Step" RAM="0xC00" NVM="0x8000" MC8BIT="0" FAST="2" PROTECT="0" PASS="1" BSL="1" OPTION="14"/>
+  <Target ID="17" NAME="TLE9877QX BF-Step" RAM="0x1800" NVM="0xF000" MC8BIT="0" FAST="2" PROTECT="0" PASS="1" BSL="1" OPTION="14"/>
+  <Target ID="18" NAME="TLE9879QX BF-Step" RAM="0x1800" NVM="0x1F000" MC8BIT="0" FAST="2" PROTECT="0" PASS="1" BSL="1" OPTION="14"/>
+  <Target ID="19" NAME="TLE9842QX" RAM="0x0800" NVM="0x8000" MC8BIT="0" FAST="1" PROTECT="7" PASS="FLINPASSPHRASE" BSL="2" OPTION="0"/>
+  <Target ID="20" NAME="TLE9843QX" RAM="0x1000" NVM="0xB000" MC8BIT="0" FAST="1" PROTECT="7" PASS="FLINPASSPHRASE" BSL="2" OPTION="0"/>
+  <Target ID="21" NAME="TLE9844QX" RAM="0x1000" NVM="0xF000" MC8BIT="0" FAST="1" PROTECT="7" PASS="FLINPASSPHRASE" BSL="2" OPTION="0"/>
+  <Target ID="22" NAME="TLE9845QX" RAM="0x1000" NVM="0xB000" MC8BIT="0" FAST="1" PROTECT="7" PASS="FLINPASSPHRASE" BSL="2" OPTION="0"/>
+  <Target ID="23" NAME="TLE9842-2QX" RAM="0x0800" NVM="0x8000" MC8BIT="0" FAST="1" PROTECT="7" PASS="FLINPASSPHRASE" BSL="2" OPTION="0"/>
+  <Target ID="24" NAME="TLE9843-2QX" RAM="0x1000" NVM="0xB000" MC8BIT="0" FAST="1" PROTECT="7" PASS="FLINPASSPHRASE" BSL="2" OPTION="0"/>
+  <Target ID="25" NAME="TLE9844-2QX" RAM="0x1000" NVM="0xF000" MC8BIT="0" FAST="1" PROTECT="7" PASS="FLINPASSPHRASE" BSL="2" OPTION="0"/>
+  </Targets>
+  <Protocols>
+    <Protocol ID="1" NAME="Normal LIN" TYPE="nlin" >
+      <Baudrates>
+        <Baudrate ID="1" Value="9600"/>
+        <Baudrate ID="2" Value="19200"/>
+      </Baudrates>
+    </Protocol>
+    <Protocol ID="2" NAME="Fast-LIN" TYPE="flin" >
+      <Baudrates>
+        <Baudrate ID="1" Value="19200"/>
+        <Baudrate ID="2" Value="38400"/>
+        <Baudrate ID="3" Value="57600"/>
+        <Baudrate ID="4" Value="115200"/>
+        <Baudrate ID="5" Value="230400"/>
+      </Baudrates>
+    </Protocol>
+    <Protocol ID="3" NAME="UART" TYPE="uart" >
+      <Baudrates>
+        <Baudrate ID="1" Value="38400"/>
+        <Baudrate ID="2" Value="57600"/>
+        <Baudrate ID="3" Value="115200"/>
+        <Baudrate ID="4" Value="230400"/>
+      </Baudrates>
+    </Protocol>
+  </Protocols>
+  <Configuration>
+    <Setting ID="Reset_duration_1" Value="100"/>
+    <Setting ID="Reset_duration_2" Value="300"/>
+    <Setting ID="SlowDown" Value="0"/>
+  </Configuration>
+</TargetConfiguration>

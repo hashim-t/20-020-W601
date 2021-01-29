@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" 
+	xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="TargetConfiguration">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="WebLinks">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="2" maxOccurs="5" name="Link">
+                <xs:complexType>
+                  <xs:attribute name="ID" type="xs:string" use="required" />
+                  <xs:attribute name="Name" type="xs:string" use="required" />
+                  <xs:attribute name="Address" type="xs:string" use="required" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Targets">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="1" maxOccurs="unbounded" name="Target">
+                <xs:complexType>
+                  <xs:attribute name="ID" type="xs:integer" use="required" />
+                  <xs:attribute name="NAME" type="xs:string" use="required" />
+                  <xs:attribute name="RAM" type="xs:string" use="required" />
+                  <xs:attribute name="NVM" type="xs:string" use="required" />
+                  <xs:attribute name="MC8BIT" type="xs:string" use="required" />
+                  <xs:attribute name="FAST" type="xs:string" use="required" />
+                  <xs:attribute name="PROTECT" type="xs:integer" use="required" />
+                  <xs:attribute name="PASS" type="xs:string" use="required" />
+                  <xs:attribute name="BSL" type="xs:integer" use="required" />
+                  <xs:attribute name="OPTION" type="xs:integer" use="required" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Protocols">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="3" maxOccurs="3" name="Protocol">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Baudrates">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element minOccurs="1" maxOccurs="unbounded" name="Baudrate">
+                            <xs:complexType>
+                              <xs:attribute name="ID" type="xs:integer" use="required"/>
+                              <xs:attribute name="Value" type="xs:integer" use="required"/>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="ID" type="xs:integer" use="required" />
+                  <xs:attribute name="NAME" type="xs:string" use="required" />
+                  <xs:attribute name="TYPE" type="xs:string" use="required" />
+                </xs:complexType>
+            </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Configuration">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" maxOccurs="5" name="Setting">
+                <xs:complexType>
+                  <xs:attribute name="ID" type="xs:string" use="required" />
+                  <xs:attribute name="Value" type="xs:string" use="required" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+	  </xs:complexType>
+  </xs:element>
+</xs:schema>

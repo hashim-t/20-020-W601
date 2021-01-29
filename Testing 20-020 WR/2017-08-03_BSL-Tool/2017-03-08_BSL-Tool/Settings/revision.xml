@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+********************************************************************************
+**	            !!! automatically generated !!!								  **
+********************************************************************************
+-->
+<Application>
+  <Parameters>
+    <Parameter ID="GUI" Name="ePower GUI" Version="1.1 build 638" Date="2016/07/29 16:05:01"></Parameter>
+    <Parameter ID="Firmware" Name="ePower Firmware" Version="1.1 build 633" Date="2016/05/09 13:41:09"></Parameter>
+  </Parameters>
+</Application>
