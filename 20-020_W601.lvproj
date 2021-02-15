@@ -358,7 +358,7 @@
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="WR501" Type="EXE">
+			<Item Name="WR601" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{437D5ED5-44BE-4E27-B7DF-39D86E055C2F}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{783C195C-863E-4DDD-9801-2CD6ACD8567C}</Property>
@@ -366,20 +366,20 @@
 				<Property Name="App_winsec.description" Type="Str">http://www.Sasyaka.com</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{20693BAF-1C69-4FBA-BEB2-1A15AA632E09}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">WR501</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/WR501</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">WR601</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/WR601</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{AAAB9929-6277-46E5-BBF4-B1BC7EEC45DF}</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">WR501.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/WR501/WR501.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">WR601.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/WR601/WR601.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/WR501/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/WR601/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E7D43385-C647-4582-8CCB-9BC902ABBD96}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{AF65D014-4A69-4690-81F2-5C1061E6BB23}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main v0.01.vi</Property>
@@ -387,12 +387,12 @@
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">Sasyaka</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">WR501</Property>
-				<Property Name="TgtF_internalName" Type="Str">WR501</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">WR601</Property>
+				<Property Name="TgtF_internalName" Type="Str">WR601</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 Sasyaka</Property>
-				<Property Name="TgtF_productName" Type="Str">WR501</Property>
+				<Property Name="TgtF_productName" Type="Str">WR601</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{AFD3449A-BE22-46B1-9E73-C6615E268D33}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">WR501.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">WR601.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
